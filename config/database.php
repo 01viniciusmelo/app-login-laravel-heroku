@@ -41,11 +41,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'db4free.net'),
-            'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'applogin'),
-            'username' => env('DB_USERNAME', 'viniciusmelo'),
-            'password' => env('DB_PASSWORD', '123123abc'),
+            'host' => env('DB_HOST', 'mysql22.redehost.com.br'),
+            'port' => env('DB_PORT', '41890'),
+            'database' => env('DB_DATABASE', 'planilhas'),
+            'username' => env('DB_USERNAME', 'planilhas'),
+            'password' => env('DB_PASSWORD', '@Seanger2018'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
